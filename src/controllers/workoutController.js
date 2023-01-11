@@ -1,6 +1,8 @@
 const workoutService = require("../services/workoutService");
 
 const getAllWorkouts = (req, res) => {
+    
+    console.log(req.query.username);
     const allWorkouts = workoutService.getAllWorkouts();
     res.send({ status: "OK", data: allWorkouts });
 };
@@ -11,7 +13,10 @@ const getOneWorkout = (req, res) => {
 };
 
 const createNewWorkout = (req, res) => {
+    console.log('entered');
+    // console.log(req.body);
     const { body } = req;
+    console.log(body);
     if (
         !body.name ||
         !body.mode ||
