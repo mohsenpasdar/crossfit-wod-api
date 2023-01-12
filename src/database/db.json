@@ -63,26 +63,6 @@
         "The first three rounds might feel terrible, but stick to it",
         "RX Weights: 205lb/145lb"
       ]
-    },
-    {
-      "name": "data1",
-      "mode": "data2",
-      "equipment": "data3",
-      "exercises": "data4",
-      "trainerTips": "data5",
-      "id": "79d6c09a-522b-4659-9343-eecb44820c8f",
-      "createdAt": "1/11/2023, 10:15:11 AM",
-      "updatedAt": "1/11/2023, 10:15:11 AM"
-    },
-    {
-      "name": "data11",
-      "mode": "data2",
-      "equipment": "data3",
-      "exercises": "data4",
-      "trainerTips": "data5",
-      "id": "a7d7d46f-00c5-4796-97a9-f9926eeca31f",
-      "createdAt": "1/11/2023, 10:49:10 AM",
-      "updatedAt": "1/11/2023, 10:49:10 AM"
     }
   ]
 }
